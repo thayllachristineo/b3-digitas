@@ -1,4 +1,6 @@
 import React from 'react';
+
+import classes from './Table.module.css';
 import { TForexRatesResponse } from '../../services/fixer';
 
 const Table = (data: TForexRatesResponse) => {
@@ -9,7 +11,7 @@ const Table = (data: TForexRatesResponse) => {
   const transformDateToBase = (date: string) => new Date(date).toLocaleDateString(base);
 
   return (
-    <table>
+    <table className={classes.table}>
       <thead>
         <tr>
           <th id="symbols">Moeda</th>

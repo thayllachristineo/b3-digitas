@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 
 import { TForexRatesResponse, getForexRates } from './services/fixer';
 import Table from './components/Table';
-import './App.css';
 
 function App() {
   const [data, setData] = useState<TForexRatesResponse | undefined>();
