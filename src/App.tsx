@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 
 import { TForexRatesResponse, getForexRates } from './services/fixer';
+import Table from './components/Table';
 import './App.css';
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
     callForexRatesAPI();
   }, []);
 
-  return <>{JSON.stringify(data, null)}</>;
+  return <>{data && <Table {...data} />}</>;
 }
 
 export default App;
