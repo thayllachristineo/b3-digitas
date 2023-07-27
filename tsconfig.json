@@ -20,7 +20,10 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    "types": [
+      "vite-plugin-svgr/client"
+    ]
   },
   "include": [
     "src"
@@ -29,5 +32,5 @@
     {
       "path": "./tsconfig.node.json"
     }
-  ]
+  ],
 }
