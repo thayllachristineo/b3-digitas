@@ -1,15 +1,30 @@
-table,
-th,
-td {
-  border-bottom: 1px solid #ddd;
+.table {
   border-collapse: collapse;
+  width: 100%;
 }
 
-table {
-  margin: 0 auto;
-  width: 35%;
-}
-
-th {
+.table__head {
   text-align: left;
+}
+
+.table__head,
+.table__data {
+  border: 1px solid #ddd;
+  padding: 4px 8px;
+}
+
+.table__title {
+  font-size: 42px;
+  font-weight: 600;
+  padding-bottom: 8px;
+}
+
+.table__pagination__footer {
+  padding-top: 12px;
+  display: flex;
+  justify-content: center;
+}
+
+.table__pagination__text {
+  margin: 0 8px;
 }
