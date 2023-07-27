@@ -1,5 +1,5 @@
 import { getForexRates } from './fixer';
-import { TForexRatesResponse } from './fixer.types';
+import { TForexRates } from './fixer.types';
 
 export { getForexRates };
-export type { TForexRatesResponse };
+export type { TForexRates };

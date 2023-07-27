@@ -1,9 +1,15 @@
 type TForexRatesResponse = {
   base?: string;
-  date?: string;
+  date: string;
   rates?: Record<string, number>;
   success: boolean;
   timestamp?: number;
 };
 
-export type { TForexRatesResponse };
+type TForexRates = Array<{
+  date: string;
+  currency: string;
+  rate: number;
+}>;
+
+export type { TForexRatesResponse, TForexRates };
