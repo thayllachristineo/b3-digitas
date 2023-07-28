@@ -1,11 +1,10 @@
 import { useState, useEffect } from 'react';
-
 import './App.css';
 
 import { TForexRates, getForexRates } from './services/fixer';
 import Table from './components/Table';
 
-function App() {
+const App = () => {
   const [data, setData] = useState<TForexRates>([]);
 
   useEffect(() => {
@@ -16,7 +15,9 @@ function App() {
     callForexRatesAPI();
   }, []);
 
-  return <>{data && <Table data={data} />}</>;
-}
+  if (!data.length) return null;
+
+  return <Table data={data} />;
+};
 
 export default App;
