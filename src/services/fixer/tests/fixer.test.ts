@@ -1,20 +1,20 @@
 import { getForexRates } from '../fixer';
 import fetch from 'jest-fetch-mock';
 
-import { SUCCESS_TRANSFORM_RESPONSE_MOCK } from '../fixer.mock';
+import { SUCCESS_RESPONSE_MOCK, SUCCESS_TRANSFORMED_RESPONSE_MOCK } from '../fixer.mock';
 
 beforeEach(() => {
   fetch.resetMocks();
 });
 
 describe('services/fixer', () => {
-  xit('should return an object with forex data', async () => {
-    const mockData = SUCCESS_TRANSFORM_RESPONSE_MOCK;
+  it('should return an object with forex data', async () => {
+    const mockData = SUCCESS_RESPONSE_MOCK;
 
     fetch.mockResponse(JSON.stringify(mockData));
     const result = await getForexRates();
 
-    expect(result).toEqual(mockData);
+    expect(result).toEqual(SUCCESS_TRANSFORMED_RESPONSE_MOCK);
     expect(fetch).toHaveBeenCalled();
   });
 
