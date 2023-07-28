@@ -4,7 +4,16 @@
 }
 
 .table__head {
-  text-align: left;
+  cursor: pointer;
+}
+
+.table__head svg {
+  vertical-align: middle;
+  margin-top: -2px;
+}
+
+.table__head:last-child {
+  cursor: initial;
 }
 
 .table__head,
@@ -25,6 +34,6 @@
   justify-content: center;
 }
 
-.table__pagination__text {
+.table__pagination__current {
   margin: 0 8px;
 }

@@ -88,11 +88,13 @@ const Table: FC<TProps> = ({ data, itemsPerPage = 5 }) => {
 
       <div className={classes.table__pagination__footer}>
         <button disabled={currentPage === 1} onClick={() => handleChangePage(currentPage - 1)}>
-          Previous
+          Anterior
         </button>
-        <span className={classes.table__pagination__text}> {currentPage} </span>
+        <span className={classes.table__pagination__current} data-testid="table-pagination-current">
+          {currentPage}
+        </span>
         <button disabled={currentPage === totalPages} onClick={() => handleChangePage(currentPage + 1)}>
-          Next
+          Próxima
         </button>
       </div>
     </>
