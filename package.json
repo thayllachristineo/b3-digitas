@@ -1,7 +1,17 @@
 {
   "name": "b3-digitas",
+  "description": "Teste técnico @ B3 Digitas",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "author": {
+    "name": "Thaylla Silva",
+    "email": "thayllachristineo@gmail.com",
+    "url": "https://www.github.com/thayllachristineo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thayllachristine/b3-digitas.git"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -44,5 +54,8 @@
     "typescript": "^5.0.2",
     "vite": "^4.4.5",
     "vite-plugin-svgr": "^3.2.0"
+  },
+  "engines": {
+    "node": ">=14.18.0"
   }
 }
