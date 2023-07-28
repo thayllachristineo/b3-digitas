@@ -177,6 +177,859 @@ const SUCCESS_RESPONSE_MOCK = {
   },
 };
 
+const SUCCESS_TRANSFORM_RESPONSE_MOCK = [
+  {
+    date: '2023-07-23',
+    currency: 'AED',
+    rate: 1.3010621760517174,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'AFN',
+    rate: 0.0558124693088653,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'ALL',
+    rate: 0.0526216079818607,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'AMD',
+    rate: 0.012286477018273444,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'ANG',
+    rate: 2.6532569525275864,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'AOA',
+    rate: 0.005782019308224387,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'ARS',
+    rate: 0.017794647515681383,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'AUD',
+    rate: 3.2177483179243915,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'AWG',
+    rate: 2.651229188643765,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'AZN',
+    rate: 2.808259224074609,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'BAM',
+    rate: 2.720137264189064,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'BBD',
+    rate: 2.3682537745730228,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'BDT',
+    rate: 0.04405469172161108,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'BGN',
+    rate: 2.71867993108772,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'BHD',
+    rate: 12.684886056263448,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'BIF',
+    rate: 0.0016896003285124443,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'BMD',
+    rate: 4.778840433848837,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'BND',
+    rate: 3.5977849218816593,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'BOB',
+    rate: 0.6919932976790539,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'BRL',
+    rate: 1,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'BSD',
+    rate: 4.782063340766852,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'BTC',
+    rate: 143372.3105780665,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'BTN',
+    rate: 0.058319689402768764,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'BWP',
+    rate: 0.3634158418683299,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'BYN',
+    rate: 1.8944680350819698,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'BYR',
+    rate: 0.00024381840972625686,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'BZD',
+    rate: 2.3722660916407423,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'CAD',
+    rate: 3.615171787444605,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'CDF',
+    rate: 0.0018674639550614774,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'CHF',
+    rate: 5.518897265995922,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'CLF',
+    rate: 161.50010628928908,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'CLP',
+    rate: 0.005852956215717123,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'CNY',
+    rate: 0.6648545193915386,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'COP',
+    rate: 0.0012017810958006362,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'CRC',
+    rate: 0.008917272132739719,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'CUC',
+    rate: 4.778840433848837,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'CUP',
+    rate: 0.18033361350747015,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'CVE',
+    rate: 0.048249995806053894,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'CZK',
+    rate: 0.22122201558893026,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'DJF',
+    rate: 0.026856704354117696,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'DKK',
+    rate: 0.7137935824792948,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'DOP',
+    rate: 0.085216154447645,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'DZD',
+    rate: 0.035490624167088966,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'EGP',
+    rate: 0.1552038922227077,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'ERN',
+    rate: 0.3185893813424262,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'ETB',
+    rate: 0.08684170651878009,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'EUR',
+    rate: 5.318037,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'FJD',
+    rate: 2.1542785708296184,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'FKP',
+    rate: 6.142693618250073,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'GBP',
+    rate: 6.144247866338699,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'GEL',
+    rate: 1.8523930292267132,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'GGP',
+    rate: 6.142693618250073,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'GHS',
+    rate: 0.4122148214923809,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'GIP',
+    rate: 6.142693618250073,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'GMD',
+    rate: 0.08004713144716229,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'GNF',
+    rate: 0.0005560247235064206,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'GTQ',
+    rate: 0.6091189209942293,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'GYD',
+    rate: 0.022836729713566234,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'HKD',
+    rate: 0.611308601677512,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'HNL',
+    rate: 0.19425437685707886,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'HRK',
+    rate: 0.710728925089452,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'HTG',
+    rate: 0.03503255986331468,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'HUF',
+    rate: 0.01401296093427634,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'IDR',
+    rate: 0.0003176713185892162,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'ILS',
+    rate: 1.3200455137009,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'IMP',
+    rate: 6.142693618250073,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'INR',
+    rate: 0.058285303457504434,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'IQD',
+    rate: 0.003650366787236386,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'IRR',
+    rate: 0.000113108658790676,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'ISK',
+    rate: 0.036343741692569036,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'JEP',
+    rate: 6.142693618250073,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'JMD',
+    rate: 0.03098453436197077,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'JOD',
+    rate: 6.739293304220331,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'JPY',
+    rate: 0.03371650049961952,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'KES',
+    rate: 0.033628600253969416,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'KGS',
+    rate: 0.05438534697548602,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'KHR',
+    rate: 0.0011580419144161663,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'KMF',
+    rate: 0.010785026847016235,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'KPW',
+    rate: 0.005310079808236798,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'KRW',
+    rate: 0.003714171945837981,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'KWD',
+    rate: 15.562192738084091,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'KYD',
+    rate: 5.738372808200702,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'KZT',
+    rate: 0.010727842864379476,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'LAK',
+    rate: 0.0002505200863975,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'LBP',
+    rate: 0.00031857698807286056,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'LKR',
+    rate: 0.014567083453462545,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'LRD',
+    rate: 0.025796692288470112,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'LSL',
+    rate: 0.2659320199876676,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'LTL',
+    rate: 1.6184425079536857,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'LVL',
+    rate: 7.900343167840272,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'LYD',
+    rate: 1.0096876559233205,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'MAD',
+    rate: 0.4934785747532253,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'MDL',
+    rate: 0.2748240825458724,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'MGA',
+    rate: 0.0010788976991640902,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'MKD',
+    rate: 0.08647666703226844,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'MMK',
+    rate: 0.002277026431268313,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'MNT',
+    rate: 0.0013860310595201983,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'MOP',
+    rate: 0.5939007774931263,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'MRO',
+    rate: 0.01338611520538183,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'MUR',
+    rate: 0.1040696772756791,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'MVR',
+    rate: 0.31131941436530647,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'MWK',
+    rate: 0.004539287162302879,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'MXN',
+    rate: 0.2812175482336562,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'MYR',
+    rate: 1.0477567266873289,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'MZN',
+    rate: 0.07555461718327358,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'NAD',
+    rate: 0.2659354110488744,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'NGN',
+    rate: 0.00615430780472776,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'NIO',
+    rate: 0.1307457508233938,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'NOK',
+    rate: 0.4753363128495615,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'NPR',
+    rate: 0.036449895864578356,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'NZD',
+    rate: 2.9502756086357373,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'OMR',
+    rate: 12.420734868903537,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'PAB',
+    rate: 4.781633368699312,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'PEN',
+    rate: 1.3333780464016345,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'PGK',
+    rate: 1.3207657805328723,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'PHP',
+    rate: 0.08731660438957449,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'PKR',
+    rate: 0.01667601673151631,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'PLN',
+    rate: 1.1921024546424759,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'PYG',
+    rate: 0.0006572824999223593,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'QAR',
+    rate: 1.3125054142322674,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'RON',
+    rate: 1.0760695769849784,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'RSD',
+    rate: 0.04539868221296361,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'RUB',
+    rate: 0.05280721153618437,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'RWF',
+    rate: 0.004086055724060088,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'SAR',
+    rate: 1.273966843554702,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'SBD',
+    rate: 0.5719872946135693,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'SCR',
+    rate: 0.3543557636483491,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'SDG',
+    rate: 0.00794487789442564,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'SEK',
+    rate: 0.4589080790559021,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'SGD',
+    rate: 3.591358514087441,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'SHP',
+    rate: 3.9275476630958575,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'SLE',
+    rate: 0.22881627983373717,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'SLL',
+    rate: 0.00024196662439252201,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'SOS',
+    rate: 0.008406136507771044,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'SRD',
+    rate: 0.12435021443949414,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'STD',
+    rate: 0.00023088439537757163,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'SVC',
+    rate: 0.5464863678392853,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'SYP',
+    rate: 0.001902002434152046,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'SZL',
+    rate: 0.2655905645787855,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'THB',
+    rate: 0.13879834666689495,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'TJS',
+    rate: 0.4364985606235895,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'TMT',
+    rate: 1.3653829810996676,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'TND',
+    rate: 1.5573864203760253,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'TOP',
+    rate: 2.0399294813789646,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'TRY',
+    rate: 0.17740265505678113,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'TTD',
+    rate: 0.7045483059361161,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'TWD',
+    rate: 0.15250078178330903,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'TZS',
+    rate: 0.001955754927965954,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'UAH',
+    rate: 0.13011324936348811,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'UGX',
+    rate: 0.0013132669845637688,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'USD',
+    rate: 4.778840433848837,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'UYU',
+    rate: 0.12579911331875954,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'UZS',
+    rate: 0.0004118637883924631,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'VEF',
+    rate: 0.0000016520388671623308,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'VES',
+    rate: 0.16449908104796013,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'VND',
+    rate: 0.00020200109185890014,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'VUV',
+    rate: 0.040830624561172695,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'WST',
+    rate: 1.78108154905459,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'XAF',
+    rate: 0.008110355642720854,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'XAG',
+    rate: 117.61145144525291,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'XAU',
+    rate: 9379.253968253968,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'XCD',
+    rate: 1.768271289100037,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'XDR',
+    rate: 6.476801568646556,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'XOF',
+    rate: 0.008110355642720854,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'XPF',
+    rate: 0.04446385764842009,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'YER',
+    rate: 0.019088616642249763,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'ZAR',
+    rate: 0.2660536335979677,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'ZMK',
+    rate: 0.0005309123244343436,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'ZMW',
+    rate: 0.24553673828274336,
+  },
+  {
+    date: '2023-07-23',
+    currency: 'ZWL',
+    rate: 0.01484113940578746,
+  },
+];
+
 const ERROR_RESPONSE_MOCK = {
   success: false,
   error: {
@@ -186,4 +1039,4 @@ const ERROR_RESPONSE_MOCK = {
   },
 };
 
-export { SUCCESS_RESPONSE_MOCK, ERROR_RESPONSE_MOCK };
+export { SUCCESS_RESPONSE_MOCK, SUCCESS_TRANSFORM_RESPONSE_MOCK, ERROR_RESPONSE_MOCK };
