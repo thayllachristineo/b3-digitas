@@ -1,5 +1,4 @@
 import { TForexRatesResponse } from './fixer.types';
-import { SUCCESS_RESPONSE_MOCK } from './fixer.mock';
 
 const API_URL: string = `http://data.fixer.io/api/latest?access_key=${process.env.VITE_FIXER_API_KEY}`;
 
@@ -15,15 +14,19 @@ const transformForexRatesResponse = (data: TForexRatesResponse) => {
   }));
 };
 
+function errorMessage(error: unknown) {
+  if (error instanceof Error) return error.message;
+  return String(error);
+}
+
 const getForexRates = async () => {
   try {
-    // const response = await fetch(API_URL);
-    // const forexRates = (await response.json()) as TForexRatesResponse;
-    // if (!forexRates.success) return [];
-    // return transformForexRatesResponse(forexRates);
-    return transformForexRatesResponse(SUCCESS_RESPONSE_MOCK);
+    const response = await fetch(API_URL);
+    const forexRates = (await response.json()) as TForexRatesResponse;
+    if (!forexRates.success) return [];
+    return transformForexRatesResponse(forexRates);
   } catch (error) {
-    console.error(error);
+    console.error(errorMessage(error));
     return [];
   }
 };
