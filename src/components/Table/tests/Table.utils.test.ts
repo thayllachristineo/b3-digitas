@@ -1,6 +1,6 @@
 import { transformRateToLocale, transformDateToLocale } from '../Table.utils';
 
-describe('Table.utils', () => {
+describe('components/Table.utils', () => {
   describe('transformRateToLocale', () => {
     it('should transform to BRL currency', () => {
       const value = transformRateToLocale(10);
