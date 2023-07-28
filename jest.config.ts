@@ -11,5 +11,5 @@ export default {
     '\\.css$': 'identity-obj-proxy',
     '\\.svg$': '<rootDir>/src/__mocks__/svgrMock.ts',
   },
-  collectCoverageFrom: ['src/**/*.{ts,tsx}'],
+  collectCoverageFrom: ['src/**/*.{ts,tsx}', '!src/main.tsx'],
 };
